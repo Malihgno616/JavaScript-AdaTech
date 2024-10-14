@@ -5,5 +5,6 @@
    2.1 Instalação global: `npm install -g typescript`
    2.2 Instalação local: `npm install typescript`
 3. Utilizar o TypeScript instalado para transpilar o nosso código (converter nosso código TS para JS).
-   3.1 `npx tsc index.ts`
-    
+   3.1 `npx tsc index.ts` ou para mudar automaticamente todos os arquivos e transferir para JS `npx tsc --watch`
+
+4. Configurar o arquivo tsconfig.json para que o TypeScript saiba como transpilar 
